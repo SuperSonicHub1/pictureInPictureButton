@@ -1,4 +1,4 @@
-# pictureInPictureButton
+# Picture in Picture Button
 Universal Picture in Picture button/shortcut for Chrome
 
 This extension adds a universal Picture in Picture button and keyboard shortcut to Chrome, powered by the [Picture in Picture Web API](https://developers.google.com/web/updates/2018/10/watch-video-using-picture-in-picture) introduced by Google in 2018.
