@@ -1,0 +1,36 @@
+{
+    "name": "Picture in Picture Button",
+    "version": "1.0",
+    "description": "Universal Picture in Picture button/shortcut for Chrome.",
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_title": "PiP Button",
+        "default_icon": {
+            "19": "icons/icon-19.png",
+            "38": "icons/icon-38.png"
+        }
+    },
+    "icons": {
+        "16": "icons/icon-16.png",
+        "48": "icons/icon-48.png",
+        "128": "icons/icon-128.png",
+        "256": "icons/icon-256.png"
+    },
+    "commands": {
+        "pip-toggle": {
+            "suggested_key": {
+                "default": "Alt+P"
+            },
+            "description": "Toggle the Picture-in-Picture element."
+        }
+    }
+}

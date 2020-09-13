@@ -1,0 +1,9 @@
+# TODO
+
+* Get the extension working on VRV
+    * ~~Perhaps using a content script is in order?~~
+    * ~~Try an `<iframe>` fallback.~~
+    * __VRV is an anomaly that no one can explain.__
+* Troubleshoot `browserAction`
+    * Find a subreddit to post to for help.
+* Rewrite the Makefile in order to have `make icons` working properly.
