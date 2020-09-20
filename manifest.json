@@ -1,6 +1,6 @@
 {
     "name": "Picture in Picture Button",
-    "version": "1.0",
+    "version": "1.0.1",
     "description": "Universal Picture in Picture button/shortcut for Chrome.",
     "manifest_version": 2,
     "permissions": [
