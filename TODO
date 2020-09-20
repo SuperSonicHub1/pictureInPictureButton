@@ -7,3 +7,7 @@
 * Troubleshoot `browserAction`
     * Find a subreddit to post to for help.
 * Rewrite the Makefile in order to have `make icons` working properly.
+* ~~Get `onloadedmetadata` up and running for Bandcamp~~
+    * ~~https://ourcodeworld.com/articles/read/1249/how-to-solve-javascript-exception-failed-to-execute-requestpictureinpicture-on-htmlvideoelement-metadata-for-the-video-element-are-not-loaded-yet~~
+    * ~~Just kinda doesn't work... Perhaps I've misinterpreteed the snippet or maybe it doesn't work with `async`.~~
+    * ~~Made a second realization, Bandcamp never actually gets past the `readyState` necessary to do PiP. My code now reflects this knowledge.~~

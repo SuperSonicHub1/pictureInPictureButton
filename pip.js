@@ -21,11 +21,11 @@
 
         if (videoElement) {
             try {
-                if (videoElement !== document.pictureInPictureElement) {
+                if (videoElement !== document.pictureInPictureElement && videoElement.readyState >= 2) {
                     await videoElement.requestPictureInPicture();
                     // chrome.browserAction.setBadgeText({ "text": "ON" });
                     // chrome.browserAction.setBadgeBackgroundColor({ "color": "#3498eb" })
-                } else {
+                } else if (document.pictureInPictureElement) {
                     await document.exitPictureInPicture();
                     // chrome.browserAction.setBadgeText({ "text": "" });
                     // chrome.browserAction.setBadgeBackgroundColor({ "color": "" })
